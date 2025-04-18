@@ -1,0 +1,52 @@
+[
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "_hint",
+                "type": "string"
+            },
+            {
+                "name": "_locationHash",
+                "type": "bytes32"
+            }
+        ],
+        "name": "startGame",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "latMicroDeg",
+                "type": "uint256"
+            },
+            {
+                "name": "lonMicroDeg",
+                "type": "uint256"
+            }
+        ],
+        "name": "submitGuess",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "correctLocation",
+                "type": "string"
+            }
+        ],
+        "name": "endGame",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    }
+]
